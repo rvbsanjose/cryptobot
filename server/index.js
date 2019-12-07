@@ -1,9 +1,11 @@
-const providers = require('./providers');
+const producers = require('./producers');
 const consumers = require('./consumers');
 const { initApolloServer } = require('./apollo');
 
-// Init data providers
-providers.forEach(Provider => new Provider());
+require('dotenv').config();
+
+// Init data producers
+producers.forEach(Producer => new Producer());
 
 // Init data consumers
 consumers.forEach(Consumer => new Consumer());

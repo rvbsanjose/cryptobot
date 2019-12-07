@@ -1,0 +1,3 @@
+module.exports = {
+  MATCH: 'match'
+};

@@ -1,5 +1,5 @@
 const EVENT_TYPES = {
-  PRICE_UPDATED: 'PRICE_UPDATED'
+  WHALE_ALERT: 'WHALE_ALERT'
 };
 
 module.exports = {
